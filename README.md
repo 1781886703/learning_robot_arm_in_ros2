@@ -123,6 +123,10 @@ ARM_WS/
 - **ROS2 版本：** Jazzy 
 - **依赖库：** `moveit2`, `rviz2`, `gazebo` (默认最新版), `joint_state_publisher_gui`, `ros2_control`, `xacro` 等。
 
+### 创建工作空间
+```
+mkdir -p arm_ws/src
+```
 ### 安装依赖
 
 在您的 ROS2 工作空间中，克隆本项目并安装所有必要的依赖：
@@ -201,5 +205,6 @@ source install/setup.bash
 **B站课程链接：** https://www.bilibili.com/video/BV1SBunzJEdE
 
 再次感谢 **“后来老师”** 和 **“路一直都在456”** 两位 Bilibili UP 主的视频教学，他们的课程为本项目的学习和实践提供了宝贵的指导，如需更深入的学习，请去b站联系他们！
+
 
 如果您对项目代码或内容有任何疑问或建议，欢迎提交 Issues 或 Pull Requests。
